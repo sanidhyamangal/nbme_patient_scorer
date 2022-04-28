@@ -13,7 +13,6 @@ def get_model_performance(y_true, y_pred):
 
     for i in model_performance:
         if sum(i) != 0:
-            neg_count +=1
-    
+            neg_count += 1
 
-    return (1- (neg_count/total))
+    return (1 - (neg_count / total))
